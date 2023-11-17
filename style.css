@@ -1,0 +1,122 @@
+/* ======================================================== */
+/* ============== Work of SIGNUP or LOGIN Page============= */
+/* ======================================================== */
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(216, 200, 180);
+    width: 100%;
+}
+
+
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0px 60px 0px;
+}
+
+.parent {
+    margin-top: auto;
+    /* text-align: center;  */
+    background-color: gainsboro;
+    padding: 30px 20px 10px 20px;
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+
+.name,
+.email,
+.password {
+    padding: 7px;
+}
+
+.email1 {
+
+    text-align: start;
+}
+
+p {
+    font: 1em sans-serif;
+    padding: 5px 150px 7px 0px;
+}
+
+#signup-userName,
+#signup-email,
+#signup-password {
+    padding: 3px;
+    border-radius: 1px;
+    height: 40px;
+    width: 250px;
+}
+
+#login-userName,
+#login-email,
+#login-password {
+    padding: 3px;
+    border-radius: 1px;
+    height: 40px;
+    width: 250px;
+}
+
+.btn2 {
+    padding: 15px 8px 0px 3px;
+}
+
+.btn1 {
+    border: none;
+    font-size: larger;
+    background-color: blue;
+    height: 35px;
+    border-radius: 3px;
+    padding: 3px;
+    width: 300px;
+}
+
+/* ================================================================== */
+/* ====================Work of Blog app ==================== */
+/* ================================================================== */
+
+.blogworkbody {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #9FB6C3;
+
+}
+
+.btn:hover {
+    color: 0;
+}
+.btn{
+    background-color: rgb(237, 32, 32) !important;
+    color: black;
+}
+
+.navbar {
+    height: 70px !important;
+    background-color: #008CBA !important;
+}
+
+.blog {
+    padding-top: 10px;
+    margin-top: 20px;
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+.post {
+    background-color: #008CBA;
+    height: 40px;
+    margin-left: 90px;
+    width: 80%;
+}
+#editor{
+    padding-top: 10px;
+}

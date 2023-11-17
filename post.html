@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="blogworkbody">
+
+    <!-- ============================================== -->
+    <!-- ================NAVBAR WORK=============== -->
+    <!-- ============================================== -->
+
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand">BLOG APP</a>
+            <button class="btn btn-outline-success" onclick="logoutdata()">LOG OUT</button>
+
+        </div>
+    </nav>
+
+    <!-- ============================================== -->
+    <!-- ================BLOG APP WORK================ -->
+    <!-- ============================================== -->
+    <div class="blog">
+        <div id="editor">
+
+        </div>
+    </div>
+    <button onclick="Blogwork()" class="post">POST</button>
+
+
+    <div id="main" style="width: 80%; margin-left: 90px; "></div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="app.js"></script>
+    <script src="post.js"></script>
+</body>
+
+</html>

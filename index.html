@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog App </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="all" id="signup-parent">
+        <div class="parent">
+            <h1>Welcome to SIGN UP </h1>
+            <div class="name">
+                <p> UserName</p>
+                <input type="text" placeholder="UserName" id="signup-userName">
+            </div>
+            <div class="email">
+                <p class="email1">Email</p>
+                <input type="email" placeholder="Email" id="signup-email">
+            </div>
+            <div class="password">
+                <p>Password</p>
+                <input type="password" placeholder="Password" id="signup-password">
+            </div>
+            <div class="btn2">
+                <button class="btn1" onclick="signupdata()">Sign in</button>
+            </div>
+        </div>
+    </div>
+    <div  style="display: none;" class="all" id="login-parent">
+        <div class="parent">
+            <h1>Welcome to LOG IN  </h1>
+            <div class="name">
+                <p> UserName</p>
+                <input type="text" placeholder="UserName" id="login-userName">
+            </div>
+            <div class="email">
+                <p class="email1">Email</p>
+                <input type="email" placeholder="Email" id="login-email">
+            </div>
+            <div class="password">
+                <p>Password</p>
+                <input type="password" placeholder="Password" id="login-password">
+            </div>
+            <div class="btn2">
+                <button class="btn1" onclick="logindatasave()">Log In</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
